@@ -35,4 +35,7 @@ resource "aws_batch_job_definition" "test" {
     ]
 }
 CONTAINER_PROPERTIES
+  tags = {
+    test1 = "test1"
+  }
 }

@@ -28,4 +28,7 @@ resource "aws_ecs_task_definition" "service" {
       ]
     }
   ])
+  tags = {
+    test1 = "test1"
+  }
 }

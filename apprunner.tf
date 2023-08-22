@@ -18,6 +18,7 @@ resource "aws_apprunner_service" "example" {
   }
 
   tags = {
-    Name = "example-apprunner-service"
+    Name  = "example-apprunner-service"
+    test1 = "test1"
   }
 }
