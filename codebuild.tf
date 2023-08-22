@@ -30,6 +30,7 @@ resource "aws_codebuild_project" "alias" {
 
   tags = {
     Environment = "Test"
+    test1       = "test1"
   }
 }
 
@@ -65,5 +66,6 @@ resource "aws_codebuild_project" "image" {
 
   tags = {
     Environment = "Test"
+    test1       = "test1"
   }
 }
